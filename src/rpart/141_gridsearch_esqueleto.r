@@ -112,10 +112,10 @@ archivo_salida <- "./exp/HT2020/gridsearch.txt"
 cat(
   file = archivo_salida,
   sep = "\t",
-  "cp", "\t",
   "max_depth", "\t",
   "min_split", "\t",
-  "min?bucket", "\t",
+  "minbucket", "\t",
+  "cp", "\t",
   "ganancia_promedio", "\n"
 )
 
@@ -146,9 +146,10 @@ for (minbucket in c(100,200,300)){
           sep = "\t",  # Añadido el separador entre columnas
           vmax_depth, "\t",
           vmin_split, "\t",
-          ganancia_promedio, "\t",  # Separado por \t
-          minbucket, "\t",  # Añadido
-          cp, "\n"
+          minbucket, "\t",  
+          cp, "\t",
+          ganancia_promedio, "\n",  # Separado por \t
+
         )
       }
     }

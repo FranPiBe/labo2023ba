@@ -30,7 +30,7 @@ hs <- makeParamSet(
 )
 # minbuket NO PUEDE ser mayor que la mitad de minsplit
 
-ksemilla_azar <- 100361 # cambiar por la primer semilla (100153, 100361, 100363, 100391, 100393)
+ksemilla_azar <- 100153 # cambiar por la primer semilla (100153, 100361, 100363, 100391, 100393)
 
 #------------------------------------------------------------------------------
 # graba a un archivo los componentes de lista

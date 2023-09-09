@@ -21,12 +21,12 @@ PARAM$experimento <- "FE6310"
 
 PARAM$exp_input <- "DR6210"
 
-PARAM$lag1 <- TRUE
-PARAM$lag2 <- TRUE
-PARAM$lag3 <- TRUE
+PARAM$lag1 <- FALSE
+PARAM$lag2 <- FALSE
+PARAM$lag3 <- FALSE
 
 PARAM$Tendencias1$run <- TRUE
-PARAM$Tendencias1$ventana <- 8
+PARAM$Tendencias1$ventana <- 12
 PARAM$Tendencias1$tendencia <- TRUE
 PARAM$Tendencias1$minimo <- FALSE
 PARAM$Tendencias1$maximo <- FALSE

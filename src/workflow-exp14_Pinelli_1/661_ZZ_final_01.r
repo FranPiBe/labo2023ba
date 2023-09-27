@@ -106,7 +106,7 @@ dataset <- fread(arch_dataset)
 # leo el dataset donde voy a aplicar el modelo final
 arch_future_ds <- paste0(base_dir, "exp/", TS, "/dataset_future.csv.gz")
 dfuture_ds <- fread(arch_future_ds)
-meses_a_predecir <- unique(dfuture$foto_mes) # jfp lista de mes a predecir
+meses_a_predecir <- unique(dfuture_ds$foto_mes) # jfp lista de mes a predecir
 
 # logical que me indica si los datos de future tienen la clase con valores,
 # y NO va para Kaggle

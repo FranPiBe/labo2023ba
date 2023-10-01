@@ -1,0 +1,18 @@
+experimento: ZZ6610_0924
+exp_input: HT6510_0924
+modelos_rank: 1.0
+semillas:
+- 100153.0
+- 100361.0
+- 100363.0
+- 100391.0
+- 100393.0
+kaggle:
+  envios_desde: 9500
+  envios_hasta: 11500
+  envios_salto: 500
+graficar:
+  envios_desde: 8000
+  envios_hasta: 20000
+  ventana_suavizado: 2001
+home: ~/buckets/b1/

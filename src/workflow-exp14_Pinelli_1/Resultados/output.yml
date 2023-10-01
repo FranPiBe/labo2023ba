@@ -1,0 +1,32 @@
+PARAM:
+  experimento: ZZ6610_0924
+  exp_input: HT6510_0924
+  modelos_rank: 1.0
+  semillas:
+  - 100153.0
+  - 100361.0
+  - 100363.0
+  - 100391.0
+  - 100393.0
+  kaggle:
+    envios_desde: 9500
+    envios_hasta: 11500
+    envios_salto: 500
+  graficar:
+    envios_desde: 8000
+    envios_hasta: 20000
+    ventana_suavizado: 2001
+  home: ~/buckets/b1/
+time:
+  start: 20230927 131813
+  end: 20230928 013501
+status:
+  modelo_rank: 1.0
+  sem: 5
+ganancias_suavizadas:
+- 3.9501474e+07
+- 3.4224207e+07
+- 5.738822e+07
+- 2.8286244e+07
+- 4.2737925e+07
+- 6.1332996e+07

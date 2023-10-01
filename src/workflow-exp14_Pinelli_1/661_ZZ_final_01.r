@@ -124,6 +124,9 @@ vganancias_suavizadas <- c()
 
 imodelo <- 0L
 for (mes in meses_a_predecir){
+  if (mes == 202102) {
+    next  # Omitir esta iteración si mes es igual a 202102
+  }
   # Filtro dfuture_ds para quedarme con los datos del mes en analisis
   dfuture <- dfuture_ds[foto_mes==mes]# jfp inicio el ciclo y creo el future
   
@@ -320,6 +323,7 @@ for (mes in meses_a_predecir){
       )
       
       arch_grafico <- paste0(
+        mes,
         "modelo_",
         sprintf("%02d", modelo_rank),
         "_",
